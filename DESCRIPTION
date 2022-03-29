@@ -1,0 +1,15 @@
+Package: PPcovMcd
+Type: Package
+Title: Projection Pursuit MCD Estimator
+Version: 1.0.0
+Date: 2021-04-21
+Author: Michael Pokojovy
+Maintainer: Michael Pokojovy <michael.pokojovy@gmail.com>
+Description: Compute the Minimum Covariance Determinant (MCD) estimator via the Projection Pursuit (PP) MCD algorithm.
+Depends: R (>= 3.1.0), robustbase
+Imports: Rcpp, RcppArmadillo, robustbase, pracma
+LinkingTo: Rcpp, RcppArmadillo, robustbase
+License: GNU
+Encoding: UTF-8
+NeedsCompilation: yes
+Packaged: 2021-10-08 02:49:24 UTC; wsadmin

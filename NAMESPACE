@@ -1,0 +1,4 @@
+useDynLib(PPcovMcd, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+export(PPcovMcd, mah.standard)
+#export(mah.standard)
